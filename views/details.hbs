@@ -1,0 +1,21 @@
+<body class="details">
+    <header>
+        {{> header}}
+    </header>
+    <main>
+        <img src="{{data.webImage.url}}2000" alt="{{data.title}}" loading="lazy">
+        <section>
+            <h1>{{data.title}}</h1>
+            <ul>
+                {{#each data.objectTypes}}
+                <li>
+                    <a href="/categorie/{{this}}">
+                        {{this}}
+                    </a>
+                </li>
+                {{/each}}
+            </ul>
+            <p>{{data.label.description}}</p>
+        </section>
+    </main>
+</body>

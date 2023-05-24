@@ -1,0 +1,21 @@
+<header>
+    {{> header}}
+</header>
+<main class="search">
+    <h2>Zoeken</h2>
+    <form action="/search" method="get">
+        <label for="search-input">Zoeken</label>
+        <input type="text" id="search-input" name="q" placeholder="Vul hier je zoekterm in">
+        <button type="submit">Enter</button>
+    </form>
+
+    <nav>
+        <ul>
+            <li><a href="/categorie/schilderij">Schilderijen</a></li>
+            <li><a href="/categorie/pot">Potten</a></li>
+            <li><a href="/categorie/figuur">Figuren</a></li>
+            <li><a href="/details/nl-SK-C-5">De Nachtwacht</a></li>
+            <li><a href="/details/nl-SK-A-3262">Zelfportret Vincent Van Gogh</a></li>
+        </ul>
+    </nav>
+</main>

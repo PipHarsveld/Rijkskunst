@@ -1,0 +1,38 @@
+{    
+    "name" : "RijksKunst",
+    "short_name" : "RijksKunst",
+    "description" : "Look at the Rijksmuseum art from the comfort of your own home!",
+    "display" : "standalone",
+    "scope" : "/",
+    "start_url" : "/",
+    "theme_color" : "#40474F",
+    "background_color" : "#40474F",
+    "icons": [
+      {
+        "src": "images/icon-144x144.png",
+        "type": "image/png",
+        "sizes": "144x144",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "images/icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "images/icon-256x256.png",
+        "type": "image/png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "images/icon-384x384.png",
+        "type": "image/png",
+        "sizes": "384x384"
+      },
+      {
+        "src": "images/icon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }

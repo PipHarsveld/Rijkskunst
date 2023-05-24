@@ -1,0 +1,16 @@
+<header>
+    {{> header}}
+    {{> headerOverview}}
+</header>
+<main class="overview">
+    <h2>Uitgelicht</h2>
+    <ul>
+        {{#each data}}
+        <li>
+            <a href="/details/{{this.id}}">
+                <img src="{{this.webImage.url}}1400" alt="{{this.title}}" loading="lazy">
+            </a>
+        </li>
+        {{/each}}
+    </ul>
+</main>
