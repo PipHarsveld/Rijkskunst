@@ -172,7 +172,7 @@ By implementing these enhancements, I have optimized the critical render path of
 ![Lighthouse audit 2](/docs/images/test5.png)
 
 ## :chart_with_upwards_trend:Activity diagram
-![Activity diagram](./docs/images/activityDiagram.jpg)
+![Activity diagram](/static/images/activityDiagram.jpg)
 
 
 ## :bulb:Api
