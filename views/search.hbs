@@ -3,10 +3,10 @@
 </header>
 <main class="search">
     <h2>Zoeken</h2>
-    <form action="/search" method="get">
-        <label for="search-input">Zoeken</label>
-        <input type="text" id="search-input" name="q" placeholder="Vul hier je zoekterm in">
-        <button type="submit">Enter</button>
+    <form action="/zoekresultaten" method="POST">
+        <label for="zoeken"></label>
+        <input type="text" id="zoeken" name="zoeken" placeholder="Zoeken een kunstwerk...">
+        <button type="submit"></button>
     </form>
 
     <nav>
@@ -18,4 +18,15 @@
             <li><a href="/details/nl-SK-A-3262">Zelfportret Vincent Van Gogh</a></li>
         </ul>
     </nav>
+
+    <ul class="search-results">
+        {{#each result}}
+        <li>
+            <a href="/details/{{this.objectNumber}}">
+                <img src="{{this.webImage.url}}" alt="{{this.title}}">
+                <h2>{{this.title}}</h2>
+            </a>
+        </li>
+        {{/each}}
+    </ul>
 </main>

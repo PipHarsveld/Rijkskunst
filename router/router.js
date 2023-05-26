@@ -53,13 +53,32 @@ router.get('/categorie/:type', (req, res) => {
                 const specificArtPieces = data.artObjects;
                 res.render('category', { layout: 'index', data: specificArtPieces, categorie: typeArt, title: 'Categorie' });
             }
-        })
+        }
+    )
 });
 
 
 router.get('/zoeken', (req, res) => {
     res.render('search', { layout: 'index', title: 'Zoeken' });
 });
+
+router.post('/zoekresultaten', async (req, res) => {
+    // const inputSearchTerm = req.body.zoeken;
+    console.log("hoi");
+    // request(`https://www.rijksmuseum.nl/api/nl/collection/?key=${process.env.API_KEY}&q=${inputSearchTerm}`,
+    //     { json: true },
+    //     function (err, response, data) {
+    //         if (err) {
+    //             res.send(err);
+    //             console.error('error:', err);
+    //         } else {
+    //             const specificArtPieces = data.artObjects;
+    //             res.render('search', { layout: 'index', data: specificArtPieces, categorie: typeArt, title: 'Zoekresultaten' });
+    //         }
+    //     }
+    // )
+});
+
 
 
 router.get('/offline', (req, res) => {
