@@ -339,6 +339,7 @@ header>section:nth-of-type(2)>h1::first-letter {
 .search>form {
     position: relative;
     margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 .search>form>label {
@@ -366,6 +367,7 @@ header>section:nth-of-type(2)>h1::first-letter {
     cursor: pointer;
     position: absolute;
     right: 0rem;
+    height: 1.5rem;
 }
 
 .search>nav>ul>li {
@@ -404,53 +406,63 @@ header>section:nth-of-type(2)>h1::first-letter {
 @media screen and (min-width: 800px) {
 
     .overview>ul,
-    .category>ul {
+    .category>ul,
+    .search>ul {
         grid-template-columns: repeat(6, calc(100% / 6));
         grid-template-rows: repeat(4, calc(90vw / 6));
     }
 
     .overview>ul>li:nth-of-type(2),
-    .category>ul>li:nth-of-type(2) {
+    .category>ul>li:nth-of-type(2),
+    .search>ul>li:nth-of-type(2) {
         grid-area: 1 / 3 / 2 / 5;
     }
 
     .overview>ul>li:nth-of-type(3),
-    .category>ul>li:nth-of-type(3) {
+    .category>ul>li:nth-of-type(3),
+    .search>ul>li:nth-of-type(3) {
         grid-area: 1 / 5 / 2 / 6;
     }
 
     .overview>ul>li:nth-of-type(4),
-    .category>ul>li:nth-of-type(4) {
+    .category>ul>li:nth-of-type(4),
+    .search>ul>li:nth-of-type(4) {
         grid-area: 2 / 3 / 3 / 6;
     }
 
     .overview>ul>li:nth-of-type(5),
-    .category>ul>li:nth-of-type(5) {
+    .category>ul>li:nth-of-type(5),
+    .search>ul>li:nth-of-type(5) {
         grid-area: 1 / 6 / 3 / 7;
     }
 
     .overview>ul>li:nth-of-type(6),
-    .category>ul>li:nth-of-type(6) {
+    .category>ul>li:nth-of-type(6),
+    .search>ul>li:nth-of-type(6) {
         grid-area: 3 / 1 / 4 / 2;
     }
 
     .overview>ul>li:nth-of-type(7),
-    .category>ul>li:nth-of-type(7) {
+    .category>ul>li:nth-of-type(7),
+    .search>ul>li:nth-of-type(7) {
         grid-area: 3 / 2 / 4 / 4;
     }
 
     .overview>ul>li:nth-of-type(8),
-    .category>ul>li:nth-of-type(8) {
+    .category>ul>li:nth-of-type(8),
+    .search>ul>li:nth-of-type(8) {
         grid-area: 4 / 1 / 5 / 4;
     }
 
     .overview>ul>li:nth-of-type(9),
-    .category>ul>li:nth-of-type(9) {
+    .category>ul>li:nth-of-type(9),
+    .search>ul>li:nth-of-type(9) {
         grid-area: 3 / 4 / 5 / 5;
     }
 
     .overview>ul>li:nth-of-type(10),
-    .category>ul>li:nth-of-type(10) {
+    .category>ul>li:nth-of-type(10),
+    .search>ul>li:nth-of-type(10) {
         grid-area: 3 / 5 / 5 / 7;
     }
 
