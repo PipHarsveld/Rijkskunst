@@ -9,7 +9,6 @@ The web application is a Single Page Application (SPA) that allows users to sear
 ## :card_file_box:Table of contents
 * [User story](#busts_in_silhouetteuser-story)
 * [Features](#sparklesfeatures)
-* [Done during this course](#white_check_markdone-during-this-course)
 * [Install and Run the project](#rocketinstall-and-run-the-project)
 * [Rendering Choices](#fork_and_kniferendering_choices)
 * [Enhancements](#wrenchenhancements)
@@ -24,25 +23,7 @@ As an art lover, I want to be able to search and view art from the Rijksmuseum a
 - [X] Overview of different artworks
 - [X] Detail page of a single artwork
 - [X] Filter artworks based on category
-- [ ] Search bar for searching artworks based on object number, title of artwork or artist
-
-
-## :white_check_mark:Done during this course
-- [X] Redesign WAFS app and change the app structure
-- [X] Convert the client-side rendered app to a server-side rendered app
-    - [X] Convert app to Node.js
-    - [X] Use Express to create a server
-    - [X] Use Handlebars to render pages
-    - [X] Add a service worker
-        - [X] Make caching work
-        - [X] Make the app work offline
-    - [X] Add a manifest file
-- [X] Add progressive enhancement
-- [X] Optimize performance
-    - [X] Optimize images
-    - [X] Optimize CSS by minifying
-    - [X] Add cache-control
-- [X] Deploy the app
+- [X] Search bar for searching artworks based on object number, title of artwork or artist
 
 
 ## :rocket:Install and Run the project
