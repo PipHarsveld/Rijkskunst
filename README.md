@@ -1,8 +1,8 @@
-# :art:Rijksmuseum | Progressive Web Apps
+# :art:Rijkskunst
 The web application is a Single Page Application (SPA) that allows users to search for and view artwork from the Rijksmuseum in Amsterdam, Netherlands.
 
 
-<img src="static/images/screenshot.png" alt="Screenshot van Singe Page Web App" height="500">
+<img src="static/images/screenshot.png" alt="Screenshot van Singe Page Web App">
 
 <!-- LINKJE -->
 
