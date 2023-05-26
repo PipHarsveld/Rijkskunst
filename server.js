@@ -18,6 +18,7 @@ app.use((req, res, next) => {
     next();
 });
 
+app.use(express.urlencoded({ extended: true }));
 app.use('/', router);
 app.use(express.static(__dirname + '/static')); //Css, images en javascript
 app.use('/', express.static(__dirname + '/'));
