@@ -9,7 +9,7 @@
         <button type="submit"></button>
     </form>
 
-    <nav>
+    {{!-- <nav id="quicksearch-nav">
         <ul>
             <li><a href="/categorie/schilderij">Schilderijen</a></li>
             <li><a href="/categorie/pot">Potten</a></li>
@@ -17,14 +17,13 @@
             <li><a href="/details/nl-SK-C-5">De Nachtwacht</a></li>
             <li><a href="/details/nl-SK-A-3262">Zelfportret Vincent Van Gogh</a></li>
         </ul>
-    </nav>
+    </nav> --}}
 
-    <ul class="search-results">
+    <ul>
         {{#each data}}
         <li>
             <a href="/details/{{this.objectNumber}}">
                 <img src="{{this.image}}" alt="{{this.title}}">
-                <h2>{{this.title}}</h2>
             </a>
         </li>
         {{/each}}
