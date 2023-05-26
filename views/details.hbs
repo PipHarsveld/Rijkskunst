@@ -3,11 +3,11 @@
         {{> header}}
     </header>
     <main>
-        <img src="{{data.webImage.url}}2000" alt="{{data.title}}" loading="lazy">
+        <img src="{{data.image}}2000" alt="{{data.title}}" loading="lazy">
         <section>
             <h1>{{data.title}}</h1>
             <ul>
-                {{#each data.objectTypes}}
+                {{#each data.tags}}
                 <li>
                     <a href="/categorie/{{this}}">
                         {{this}}
@@ -15,7 +15,7 @@
                 </li>
                 {{/each}}
             </ul>
-            <p>{{data.label.description}}</p>
+            <p>{{data.info}}</p>
         </section>
     </main>
 </body>
