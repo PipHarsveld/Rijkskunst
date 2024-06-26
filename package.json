@@ -21,7 +21,8 @@
     "express-handlebars": "^7.0.7",
     "node": "^20.2.0",
     "nodemon": "^2.0.21",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "vercel": "^34.2.8"
   },
   "repository": {
     "type": "git",
